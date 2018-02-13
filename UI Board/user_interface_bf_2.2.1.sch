@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8942,6 +8942,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,-78.74,81.28,N$12,,,,,"/>
+<approved hash="106,1,-81.28,81.28,N$13,,,,,"/>
+<approved hash="106,1,-83.82,81.28,N$14,,,,,"/>
+<approved hash="106,1,-86.36,81.28,N$15,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
