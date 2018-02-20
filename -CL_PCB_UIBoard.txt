@@ -1,0 +1,13 @@
+Version 2.2.1
+
+Ongoing Issues:
+
+
+
+
+Changes:
+
+2/8/18
+	Repositioned right screw holes
+	Enlarged diameter of screw holes to 4mm
+	Rerouted traces to accomadate the reposition
