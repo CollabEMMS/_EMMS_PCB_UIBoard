@@ -7,6 +7,10 @@ Ongoing Issues:
 
 Changes:
 
+2/13/18
+	Added screw holes for the LCD standoffs w/ diameter of 4mm
+	Rerouted traces to accomadate new holes
+
 2/8/18
 	Repositioned right screw holes
 	Enlarged diameter of screw holes to 4mm
