@@ -19,3 +19,4 @@ Changes:
 2/21/19
 	Repositioned left screw holes
 	Updated Version number to 2.3.1
+	Fixed Missing Trace from Pin 2 of LCD Screen
