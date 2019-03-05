@@ -156,8 +156,6 @@
 </polygon>
 <dimension x1="0" y1="10.16" x2="119.253" y2="10.16" x3="59.6265" y3="-7.2136" textsize="1.778" layer="150"/>
 <dimension x1="109.093" y1="0" x2="109.093" y2="74.803" x3="129.0574" y3="37.4015" textsize="1.778" layer="150"/>
-<hole x="11.6566" y="16.582" drill="4"/>
-<hole x="104.4066" y="16.582" drill="4"/>
 </plain>
 <libraries>
 <library name="rcl">
