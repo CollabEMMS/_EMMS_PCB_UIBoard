@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -69,14 +69,6 @@
 <wire x1="82.5" y1="12.5" x2="81.5" y2="13.5" width="0" layer="20" curve="90"/>
 <wire x1="81.5" y1="13.5" x2="1" y2="13.5" width="0" layer="20"/>
 <wire x1="1" y1="13.5" x2="0" y2="12.5" width="0" layer="20" curve="90"/>
-<hole x="10.7608" y="11.3207" drill="1.8"/>
-<hole x="10.7804" y="2.2568" drill="1.8"/>
-<hole x="31.0748" y="11.318" drill="1.8"/>
-<hole x="31.0887" y="2.3043" drill="1.8"/>
-<hole x="51.454" y="2.276" drill="1.8"/>
-<hole x="51.4032" y="11.3416" drill="1.8"/>
-<hole x="71.7523" y="11.3375" drill="1.8"/>
-<hole x="71.7158" y="2.2977" drill="1.8"/>
 </plain>
 <libraries>
 <library name="switch-omron">
@@ -468,6 +460,9 @@ design rules under a new name.</description>
 <vertex x="0.9731" y="-0.0065" curve="-90"/>
 <vertex x="0" y="0.9636"/>
 </polygon>
+</signal>
+<signal name="N$5">
+<wire x1="6.3119" y1="9.2835" x2="6.3119" y2="8.3827" width="0.01" layer="16"/>
 </signal>
 <signal name="N$6">
 <wire x1="82.1184" y1="9.2921" x2="82.1184" y2="9.2791" width="0.01" layer="16"/>
