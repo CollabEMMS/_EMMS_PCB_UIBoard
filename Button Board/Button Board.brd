@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0001" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.254" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.254" altunitdist="mm" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -61,13 +61,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="12.5" x2="0" y2="1" width="0" layer="20"/>
-<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="81.61535625" y1="0" x2="82.5" y2="0.88464375" width="0" layer="20" curve="90"/>
-<wire x1="82.5" y1="0.88464375" x2="82.5" y2="12.5" width="0" layer="20"/>
-<wire x1="82.5" y1="12.5" x2="81.5" y2="13.5" width="0" layer="20" curve="90"/>
-<wire x1="81.5" y1="13.5" x2="1" y2="13.5" width="0" layer="20"/>
-<wire x1="1" y1="13.5" x2="0" y2="12.5" width="0" layer="20" curve="90"/>
+<wire x1="81.788" y1="13.462" x2="0.508" y2="13.462" width="0" layer="20"/>
+<wire x1="0.508" y1="13.462" x2="-0.254" y2="12.7" width="0" layer="20" curve="90"/>
+<wire x1="-0.254" y1="12.7" x2="-0.254" y2="0.508" width="0" layer="20"/>
+<wire x1="-0.254" y1="0.508" x2="0.508" y2="-0.254" width="0" layer="20" curve="90"/>
+<wire x1="0.508" y1="-0.254" x2="81.788" y2="-0.254" width="0" layer="20"/>
+<wire x1="81.788" y1="-0.254" x2="82.55" y2="0.508" width="0" layer="20" curve="90"/>
+<wire x1="82.55" y1="0.508" x2="82.55" y2="12.7" width="0" layer="20"/>
+<wire x1="82.55" y1="12.7" x2="81.788" y2="13.462" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="switch-omron">
@@ -443,19 +444,11 @@ design rules under a new name.</description>
 <contactref element="S4" pad="2"/>
 <contactref element="S4" pad="1"/>
 <contactref element="U$3" pad="P$3"/>
-<polygon width="0.8128" layer="1">
-<vertex x="0" y="0.9636"/>
-<vertex x="0" y="12.4965" curve="-90"/>
-<vertex x="1.0034" y="13.4999"/>
-<vertex x="81.4896" y="13.4999" curve="-90"/>
-<vertex x="82.4969" y="12.4926"/>
-<vertex x="82.4969" y="0.7973" curve="90"/>
-<vertex x="82.4987" y="0.7955" curve="-90"/>
-<vertex x="81.7001" y="-0.0031"/>
-<vertex x="81.603" y="-0.0031" curve="-90"/>
-<vertex x="84.0634" y="0.2043"/>
-<vertex x="5.0223" y="0.4572"/>
-<vertex x="0.9731" y="-0.0065" curve="-90"/>
+<polygon width="0.762" layer="1">
+<vertex x="-0.254" y="13.462"/>
+<vertex x="82.55" y="13.462"/>
+<vertex x="82.55" y="-0.254"/>
+<vertex x="-0.254" y="-0.254"/>
 </polygon>
 </signal>
 <signal name="N$6">
