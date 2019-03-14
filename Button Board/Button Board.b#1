@@ -69,8 +69,14 @@
 <wire x1="82.5" y1="12.5" x2="81.5" y2="13.5" width="0" layer="20" curve="90"/>
 <wire x1="81.5" y1="13.5" x2="1" y2="13.5" width="0" layer="20"/>
 <wire x1="1" y1="13.5" x2="0" y2="12.5" width="0" layer="20" curve="90"/>
-<hole x="10.7608" y="11.3207" drill="1.7"/>
-<hole x="10.8169" y="2.269" drill="1.7"/>
+<hole x="10.7608" y="11.3207" drill="1.8"/>
+<hole x="10.7804" y="2.2568" drill="1.8"/>
+<hole x="31.0748" y="11.318" drill="1.8"/>
+<hole x="31.0887" y="2.3043" drill="1.8"/>
+<hole x="51.454" y="2.276" drill="1.8"/>
+<hole x="51.4032" y="11.3416" drill="1.8"/>
+<hole x="71.7523" y="11.3375" drill="1.8"/>
+<hole x="71.7158" y="2.2977" drill="1.8"/>
 </plain>
 <libraries>
 <library name="switch-omron">
